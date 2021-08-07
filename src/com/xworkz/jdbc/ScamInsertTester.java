@@ -47,6 +47,21 @@ public class ScamInsertTester {
 			statement.execute(scam4);
 			statement.execute(scam5);
 			statement.execute(scam6);
+			statement.execute(scam7);
+			statement.execute(scam8);
+			statement.execute(scam9);
+			statement.execute(scam10);
+			statement.execute(scam11);
+			statement.execute(scam12);
+			statement.execute(scam13);
+			statement.execute(scam14);
+			statement.execute(scam15);
+			statement.execute(scam16);
+			statement.execute(scam17);
+			statement.execute(scam18);
+			statement.execute(scam19);
+			statement.execute(scam20);
+			
 		
 			System.out.println(connection);
 		} catch (SQLException e) {
