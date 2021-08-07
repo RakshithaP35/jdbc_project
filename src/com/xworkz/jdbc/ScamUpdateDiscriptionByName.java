@@ -18,7 +18,7 @@ public class ScamUpdateDiscriptionByName {
 			Class.forName(fqnOfDriverImpl);
 			connection = DriverManager.getConnection(url, username, password);
 			Statement statement = connection.createStatement();
-			String update = "update scam_table set s_description='Karvy Stock Broking' where s_name = 'SandalWoodDrugScam'";
+			String update = "update scam_table set s_description='claim that the bill you handed over to him was fake' where s_name = 'Fake money scam'";
 			statement.execute(update);
 
 			System.out.println(connection);
